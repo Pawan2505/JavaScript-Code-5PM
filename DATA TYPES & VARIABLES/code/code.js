@@ -105,3 +105,4 @@ console.log(typeof num6);
 // }
 
 
+// document.getElementById('para').innerHTML = "Hello Class!";

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            margin: 100px auto;
+            width: 600px;
+            height: 400px;
+            box-shadow: 0px 0px 4px 8px #a59898;
+            text-align: center;
+            padding: 50px;
+        }
+
+        #input-finder {
+            width: 65%;
+            margin-bottom: 40px;
+            padding: 10px;
+            font-size: 24px;
+        }
+
+        #btn-min,
+        #btn-max {
+            padding: 10px;
+            border-radius: 10px;
+            width: 20%;
+            margin: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading-finder">Min & Max Finder</h1>
+
+        <input id="input-finder" type="text" placeholder="Enter Number sperated by comma"><br>
+        <button id="btn-min" onclick="findMin()">Find Min</button>
+        <button id="btn-max" onclick="findMax()">Find Max</button>
+
+        <h2 id="answer"></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

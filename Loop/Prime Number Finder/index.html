@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            width: 600px;
+            height: 500px;
+            box-shadow: 0px 0px 4px 8px #5d5d5f;
+            text-align: center;
+            padding: 20px;
+            margin: 100px auto;
+            
+        }
+
+        .heading-prime{
+            margin-top: 100px;
+            text-decoration: underline;
+            font-size: 32px;
+        }
+
+        #start,
+        #end {
+            padding: 10px;
+            font-size: 24px;
+            width: 60%;
+            margin: 20px;
+            border-radius: 5px;
+
+        }
+
+        .btn-prime{
+            padding: 10px;
+            letter-spacing: 2px;
+            width: 65%;
+            font-size: 24px;
+            background-color: green;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="heading-prime">Prime Number Finder</h1>
+        <input id="start" type="number" id="start" placeholder="Start">
+        <input id="end" type="number" id="start" placeholder="End">
+        <button class="btn-prime" onclick="findPrime()">Find Prime</button>
+        <h2 id="answer"></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

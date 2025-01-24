@@ -195,5 +195,4 @@ JavaScript allows variable declarations using `var`, `let`, and `const`.
 ## Read more on Medium
 
 For a detailed explanation, read the full article on Medium: [Understanding JavaScript Variables and Data Types](https://medium.com/@pawan2505/understanding-javascript-variables-and-data-types-d0e4ad171bab)
-```
 

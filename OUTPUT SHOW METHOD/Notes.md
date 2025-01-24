@@ -122,4 +122,3 @@ value = 40; // it is not good practice -> good practice is to use a datatype key
 console.log(value);
 ```
 It is a good practice to always declare your variables using `var`, `let`, or `const` to avoid creating global variables unintentionally.
-```

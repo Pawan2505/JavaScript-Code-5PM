@@ -50,7 +50,10 @@
 
 // find prime number in range
 
+
+
 function isPrime(num){
+
     if(num <=1){
         return false;
     }
@@ -62,6 +65,7 @@ function isPrime(num){
     }
 
     return true;
+
 }
 
 function findPrime(){
@@ -70,7 +74,7 @@ function findPrime(){
 
     let primes = [];  // empty
     for(let i = start; i <=end; i++){
-
+        console.log(isPrime(i));
             if(isPrime(i)){
                 primes.push(i);
             }

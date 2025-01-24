@@ -1,3 +1,4 @@
+
 # JavaScript Data Types and Variables
 
 ## Constants
@@ -190,4 +191,9 @@ JavaScript allows variable declarations using `var`, `let`, and `const`.
     let isEqual = "5" == 5;
     console.log(isEqual); // Output: true (Type coercion occurs)
     ```
+
+## Read more on Medium
+
+For a detailed explanation, read the full article on Medium: [Understanding JavaScript Variables and Data Types](https://medium.com/@pawan2505/understanding-javascript-variables-and-data-types-d0e4ad171bab)
+```
 

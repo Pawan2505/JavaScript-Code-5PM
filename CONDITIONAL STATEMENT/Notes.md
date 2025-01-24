@@ -1,5 +1,3 @@
-
-```markdown
 # Mastering JavaScript Conditional Statements
 
 Conditional statements are used to perform different actions based on different conditions. JavaScript supports `if`, `else`, and `else if` conditional statements.

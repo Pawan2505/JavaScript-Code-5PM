@@ -1,4 +1,4 @@
-# **Mastering JavaScript Error Handling: `try`, `catch`, `throw`, and `finally`**  
+# **JavaScript Error Handling: `try`, `catch`, `throw`, and `finally`**  
 
 ## ** Introduction: Why Error Handling Matters?**  
 Errors are an unavoidable part of programming. If we don’t handle them properly, they can **crash our application** and create a poor user experience.  

@@ -55,7 +55,7 @@ These are **hard to catch** because the program doesn’t crash, but the output 
 💡 **Example:** Infinite loop due to incorrect condition.  
 ```js
 // ❌ Infinite Loop due to incorrect condition
-for (let i = 1; i > 0; i--) { 
+for (let i = 1; i > 0; i++) { 
     console.log(i);
 }
 ```

@@ -1,4 +1,4 @@
-# **Lecture Notes : `setTimeout` **  
+# **Lecture Notes : `setTimeout`**  
 
 ---
 

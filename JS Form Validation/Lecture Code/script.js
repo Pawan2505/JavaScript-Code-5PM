@@ -73,6 +73,15 @@ function validationForm(){
         isValid = false;
     }
 
+    let email = document.forms["myForm"]["femail"].value;
+
+    let emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+    if(!(emailRegex.test(email))){
+      seterror("femail","Invalid Email!")
+      isValid = false;
+    }
+
 
     let phone =  document.forms["myForm"]["fphone"].value;
 
@@ -85,5 +94,43 @@ function validationForm(){
 
 
 
+let password =  document.forms["myForm"]["fpassword"].value;
+
+let passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/;
+
+if(!(passwordRegex.test(password))){
+  seterror("fpassword","Mininmum length of password should be 8");
+  isValid = false;
+}
+
+let cpassword =  document.forms["myForm"]["fcpassword"].value;
+
+if(password !== cpassword){
+  seterror("fcpassword","confirm password not match with password")
+  isValid = false;
+}
+
     return isValid;
+}
+
+document.getElementById("togglePassword").addEventListener("click", function () {
+  let passwordInput = document.getElementById("password");
+  let icon = this;
+  if (passwordInput.type === "password") {
+      passwordInput.type = "text";
+      icon.classList.remove("fa-eye");
+      icon.classList.add("fa-eye-slash");
+  } else {
+      passwordInput.type = "password";
+      icon.classList.remove("fa-eye-slash");
+      icon.classList.add("fa-eye");
+  }
+});
+
+
+function copyfn(){
+
+    alert("You can not copy!");
+
+
 }

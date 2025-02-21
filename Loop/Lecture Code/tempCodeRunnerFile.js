@@ -1,0 +1,1 @@
+sole.log(num);

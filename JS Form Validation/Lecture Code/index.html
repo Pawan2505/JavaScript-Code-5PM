@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+   
+  
+
+
+    <div class="container">
+        <form action="page.html" name="myForm" onsubmit="return validationForm()" method="post">
+            <input type="text" name="fname" placeholder="Enter Name" required>
+            <span class="error"></span>
+            <input type="email" name="femail" placeholder="Enter Email" required>
+            <span class="error"></span>
+            <input type="tel" name="fphone" placeholder="Enter Phone" required>
+            <span class="error"></span>
+        
+                <input type="password" name="fpassword" id="password" placeholder="Enter Password"
+                    style="width: 100%; padding-right: 35px; padding: 10px;">
+                    <span class="error"></span>
+                <i class="fa-solid fa-eye" id="togglePassword"
+                    style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); cursor: pointer;"></i>
+       
+            <span class="error"></span>
+            <input type="password" name="fcpassword" placeholder="Confirm Password" required>
+            <span class="error"></span>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

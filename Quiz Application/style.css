@@ -1,0 +1,21 @@
+.correct{
+    background-color: green;
+}
+
+.incorrect{
+    background-color: red;
+}
+
+.option{
+    display: block;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #ddd;
+}
+
+.option:hover{
+    background-color: #bbb;
+}

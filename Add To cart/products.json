@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "iPhone 15",
+        "price": 80000,
+        "image": "images/iphone.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Samsung S23",
+        "price": 75000,
+        "image": "images/samsung.jpg"
+    },
+    {
+        "id": 3,
+        "name": "MacBook Air",
+        "price": 95000,
+        "image": "images/macbook.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Sony Headphones",
+        "price": 10000,
+        "image": "images/headphone.jpg"
+    }
+]

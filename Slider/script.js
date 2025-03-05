@@ -1,4 +1,5 @@
 let sliders = document.querySelectorAll('.img-slider');
+console.log(sliders)
 let count = 0;
 
 
@@ -29,4 +30,4 @@ function next() {
 }
 
 
-let interval = setInterval(next, 2000);
+setInterval(next, 2000);

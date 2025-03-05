@@ -53,3 +53,8 @@ color: white;
 .hidden{
 display: none;
 }
+
+.cart-item{
+    padding: 10px;
+    margin: 5px;
+}
